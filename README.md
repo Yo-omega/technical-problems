@@ -58,3 +58,18 @@ give the solutions of solved problems that I interface randomly.
 
 
          gitpush.sh "your actual commit message"
+
+
+----
+
+# restore file status in last commit Git
+
+- ## find the commit hash of the last commit that had the file:
+  
+        git log -p
+
+- ## revert:
+
+        git checkout <commit_hash> -- <path_to_file> <other_files>
+
+  
