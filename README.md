@@ -62,14 +62,23 @@ give the solutions of solved problems that I interface randomly.
 
 ----
 
-# restore file status in last commit Git
+- ## restore file status in last commit Git
+   
+   1. ### find the commit hash of the last commit that had the file:
 
-- ## find the commit hash of the last commit that had the file:
-  
-        git log -p
+            git log -p
+   
+   3. ### revert:
 
-- ## revert:
+           git checkout <commit_hash> -- <path_to_file> <other_files>
 
-        git checkout <commit_hash> -- <path_to_file> <other_files>
+## Change Remote repos for git:
 
+   1.change remote:
+   
+         git remote set-url origin <url-here>
+   
+  2. check it:
+
+         git remote -v       
   
