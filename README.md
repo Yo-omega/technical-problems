@@ -74,11 +74,22 @@ give the solutions of solved problems that I interface randomly.
 
 ## Change Remote repos for git:
 
-   1.change remote:
+   1. change remote:
    
          git remote set-url origin <url-here>
    
   2. check it:
-
-         git remote -v       
+  ```
+         git remote -v
+  ```
   
+----
+
+## Push to multiple repositories:
+
+just run this command (do not forget to replace the URL with yours)
+```
+   git remote set-url --add origin git@github.com:user/repo2.git
+```
+
+
