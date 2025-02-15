@@ -1,6 +1,12 @@
 # SolvedProblems
 give the solutions of solved problems that I interface randomly. 
 
+### Index:
+
+- [Git repositories](https://github.com/Yo-omega/technical-problems/tree/main/git#git-repository)
+- [KALI linux problems](https://github.com/Yo-omega/technical-problems/blob/main/linux/kali/README.md#kali)
+
+----
 
 - #### How to fix no ethernet adapter in Kali Linux.
 1. go to /etc/network/
