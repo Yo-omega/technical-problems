@@ -1,4 +1,4 @@
-#KALI:
+# KALI:
 ## Network:
 - ### How to fix no ethernet adapter in Kali Linux.
     1. Go to /etc/network/
