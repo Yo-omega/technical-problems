@@ -75,9 +75,9 @@ give the solutions of solved problems that I interface randomly.
 ## Change Remote repos for git:
 
    1. change remote:
-   
+   ```
          git remote set-url origin <url-here>
-   
+   ```
   2. check it:
   ```
          git remote -v
