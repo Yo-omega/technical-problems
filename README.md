@@ -1,22 +1,10 @@
-# SolvedProblems
+# Solved Problems
 give the solutions of solved problems that I interface randomly. 
 
 ### Index:
 
 - [Git repositories](https://github.com/Yo-omega/technical-problems/tree/main/git#git-repository)
 - [KALI linux problems](https://github.com/Yo-omega/technical-problems/blob/main/linux/kali/README.md#kali)
-
-----
-
-- #### How to fix no ethernet adapter in Kali Linux.
-1. go to /etc/network/
-2. open the file `interfaces`  with text editor.
-3. type the following :
-   
-       auto eth0
-       iface eth0 inet dhcp
-
-5. reboot the system
 
 ----
 
@@ -67,16 +55,6 @@ give the solutions of solved problems that I interface randomly.
 
 
 ----
-
-- ## restore file status in last commit Git
-   
-   1. ### find the commit hash of the last commit that had the file:
-
-            git log -p
-   
-   3. ### revert:
-
-           git checkout <commit_hash> -- <path_to_file> <other_files>
 
 ## Change Remote repos for git:
 
